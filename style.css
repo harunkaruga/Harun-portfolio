@@ -1,0 +1,282 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #e0f7fa;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00796b;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.hero .profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem 0;
+  border: 3px solid #00796b;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00796b;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #004d40;
+}
+
+/* Programming Languages Section */
+.programming-languages {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.programming-languages h2 {
+  font-size: 2rem;
+  color: #00796b;
+  margin-bottom: 1rem;
+}
+
+.language-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+
+.language-list li {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.about-section {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
+
+.about-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h1 {
+  font-size: 2.2rem;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  color: #444;
+  text-align: justify;
+}
+.education-section {
+  padding: 3rem 2rem;
+  background-color: #f5f5f5;
+}
+
+.education-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-section h1 {
+  font-size: 2.2rem;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.education-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-left: 5px solid #00796b;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.education-item h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.education-item p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #444;
+}
+.interests-section {
+  padding: 3rem 2rem;
+  background-color: #fff;
+}
+
+.interests-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.interests-section h1 {
+  font-size: 2.2rem;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.interests-section p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+.projects-section {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.projects-section .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.projects-section h1 {
+  font-size: 2.2rem;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-left: 5px solid #00796b;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+.project h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.project p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #00796b;
+  text-decoration: none;
+  font-weight: 600;
+}
+.contact-section {
+  padding: 3rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 2.2rem;
+  color: #00796b;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.contact-details {
+  margin-top: 2rem;
+}
+
+.contact-details p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.contact-details a {
+  color: #00796b;
+  text-decoration: none;
+}
